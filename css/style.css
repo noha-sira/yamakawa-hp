@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+nav {
+    background-color: rgba(235, 219, 188, 1);
+    font-size: 30px;
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+body {
+    background-color: rgba(250, 238, 214, 1)
+}
+

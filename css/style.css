@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 nav {
     background-color: rgba(235, 219, 188, 1);
     font-size: 30px;
@@ -10,6 +9,114 @@ nav ul li {
 }
 
 body {
-    background-color: rgba(250, 238, 214, 1)
+    background-color: rgba(250, 238, 214, 1);
+}
+.news-container {
+    margin: 10%;
+}
+.lab-container {
+    margin: 10% 10% 0;
+    padding: 10% 10% 0;
+}
+.btn-box {
+    margin: 5% auto 10%;
+}
+.scroll_content { /* リスト全体のスタイル */
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    overflow-x: auto;
+  }
+  .scroll_content {
+    width: 100%;
+  }
+  .scroll_content li { /* 各リストのスタイル */
+    width: 80%;
+    padding: 8px;
+    margin: 3px;
+    flex-shrink: 0;
+    list-style: none;
+    /* text-align: center; */
+  }
+   
+  .scroll_content img { /* 画像のスタイル */
+    width: 80%;
+    max-height: 60%;
+    object-fit: cover;
+  } 
+  .scroll_content::-webkit-scrollbar {
+    height: 12px; /* スクロールバーの高さ */
+  } 
+  .scroll_content::-webkit-scrollbar-thumb {
+    background: #aaa; /* ツマミの色 */
+    border-radius: 6px; /* ツマミ両端の丸み */
+  }
+   
+  .scroll_content::-webkit-scrollbar-track {
+    background: #ddd; /* トラックの色 */
+    border-radius: 6px; /* トラック両端の丸み */
+  }
+   
+   
+  @media screen and (min-width: 450px) {
+   
+    .scroll_content li {
+      width: 45%;
+    }
 }
 
+.button a {
+    background: rgba(235, 219, 188, 1);
+    border-color: rgba(235, 219, 188, 1);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button a:hover {
+    background: #313131;
+    color: #FFF;
+}
+.button a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+.button a:hover:after {
+    border-color: #FFF;
+}
+
+.footer{
+    background-color: rgba(235, 219, 188, 1);
+    bottom: 0;
+    width: 100%;
+}
+.footer-text{
+    align-items: center;
+    font-size: 30px;
+}
+.footer-text p {
+    margin: 0;
+    font-weight: 700;
+}
+.footer a {
+    color: #000;
+    font-weight: 500;
+    font-size: 100%;
+}

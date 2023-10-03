@@ -11,6 +11,9 @@ nav ul li {
 body {
     background-color: rgba(250, 238, 214, 1);
 }
+.title-container {
+  margin: 5%;
+}
 .news-container {
     margin: 10%;
 }

@@ -73,3 +73,23 @@ body {
     margin: 0px;
     padding: 20px;
 }
+
+/* footer */
+.footer{
+    background-color: rgba(235, 219, 188, 1);
+    bottom: 0;
+    width: 100%;
+}
+.footer-text{
+    align-items: center;
+    font-size: 30px;
+}
+.footer-text p {
+    margin: 0;
+    font-weight: 700;
+}
+.footer a {
+    color: #000;
+    font-weight: 500;
+    font-size: 100%;
+}

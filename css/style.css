@@ -14,12 +14,42 @@ body {
 .title-container {
   margin: 5%;
 }
+.title-container .container1 img {
+  margin-bottom: 50px;
+  width: 600px;
+}
+@media screen and (max-width:980px) {
+  .title-container .container1 img {
+    margin-bottom: 0px;
+    width: 250px;
+  }
+}
 .news-container {
     margin: 10%;
+}
+.news-container .container img {
+  margin-bottom: 50px;
+  width: 600px;
+}
+@media screen and (max-width:980px) {
+  .news-container .container img {
+    margin-bottom: 30px;
+    width: 250px;
+  }
 }
 .lab-container {
     margin: 10% 10% 0;
     padding: 10% 10% 0;
+}
+.lab-container .container1 img {
+  margin-bottom: 50px;
+  width: 600px;
+}
+@media screen and (max-width:980px) {
+  .lab-container .container img {
+    margin-bottom: 30px;
+    width: 250px;
+  }
 }
 .btn-box {
     margin: 5% auto 10%;

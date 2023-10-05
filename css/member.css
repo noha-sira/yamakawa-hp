@@ -30,6 +30,18 @@ body {
 }
 
 /* content */
+.wrapper-1 .content img {
+    margin-top: 70px;
+    width: 600px;
+}
+
+@media screen and (max-width:980px) {
+    .wrapper-1 .content img {
+      margin-bottom: 30px;
+      width: 250px;
+    }
+}
+
 .wrapper-2 .content {
     margin: 20px;
     padding: 0px;
@@ -48,11 +60,11 @@ body {
 
 .wrapper-2 .member {
     padding: 20px;
+    font-size: 30px;
 }
 
 .wrapper-2 .member li {
     padding: 0px;
-    font-size: 30px;
 }
 
 /* footer */

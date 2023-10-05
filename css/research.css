@@ -93,3 +93,9 @@ body {
     font-weight: 500;
     font-size: 100%;
 }
+@media screen and (max-width: 450px) {
+   
+    .footer img {
+      display: none;
+    }
+}

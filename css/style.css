@@ -61,10 +61,16 @@ body {
   }
    
    
-  @media screen and (min-width: 450px) {
+  @media screen and (max-width: 450px) {
    
     .scroll_content li {
       width: 45%;
+    }
+    .title-container #img1, #img2 {
+      display: none;
+    }
+    .footer img {
+      display: none;
     }
 }
 

@@ -94,7 +94,7 @@ body {
   @media screen and (max-width: 450px) {
    
     .scroll_content li {
-      width: 45%;
+      width: 100%;
     }
     .title-container #img1, #img2 {
       display: none;

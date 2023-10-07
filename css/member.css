@@ -35,7 +35,7 @@ body {
     width: 600px;
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 450px) {
     .wrapper-1 .content img {
       margin-bottom: 30px;
       width: 250px;
@@ -92,6 +92,8 @@ body {
       display: none;
     }
 }
+
+/* btn-box */
 .btn-box {
     margin: 5% auto 10%;
 }

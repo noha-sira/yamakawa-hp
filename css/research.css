@@ -35,6 +35,7 @@ body {
 }
 
 /* content */
+/* 研究内容紹介.png */
 .wrapper-1 .content img {
     margin-top: 70px;
     width: 600px;
@@ -47,33 +48,39 @@ body {
     }
 }
 
+/* .png */
 .wrapper-2 .container .content {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 450px) {
     .wrapper-2 .container .content {
         display: block;
+        margin-left: 40px;
     }
 }
 
+
 .wrapper-2 .content-item {
     width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 450px) {
     .wrapper-2 .content-item {
         margin: auto;
         width: 80%;
+        height: auto;
     }
 }
 
 .wrapper-2 .image {
     display: block;
     max-width: 100%;
-    margin: 0px auto;
+    margin: 40px auto;
 }
 
 .wrapper-2 .text {
